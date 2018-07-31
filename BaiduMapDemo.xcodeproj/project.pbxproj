@@ -27,6 +27,7 @@
 		0379DFF8210FF9D700F07668 /* baseTablePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0379DFF7210FF9D700F07668 /* baseTablePage.m */; };
 		0379DFFD210FFB6900F07668 /* HelloMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 0379DFFB210FFB6900F07668 /* HelloMap.m */; };
 		0379DFFE210FFB6900F07668 /* HelloMap.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0379DFFC210FFB6900F07668 /* HelloMap.xib */; };
+		0379E0012110397D00F07668 /* XMGBaiduTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0379E0002110397D00F07668 /* XMGBaiduTool.m */; };
 		03F59114210F353000E3BAA8 /* BaiduMapAPI_Location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F5910C210F352F00E3BAA8 /* BaiduMapAPI_Location.framework */; };
 		03F59115210F353000E3BAA8 /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F5910D210F352F00E3BAA8 /* BaiduMapAPI_Base.framework */; };
 		03F59117210F353000E3BAA8 /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F5910F210F352F00E3BAA8 /* BaiduMapAPI_Search.framework */; };
@@ -64,6 +65,9 @@
 		0379DFFA210FFB6900F07668 /* HelloMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloMap.h; sourceTree = "<group>"; };
 		0379DFFB210FFB6900F07668 /* HelloMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloMap.m; sourceTree = "<group>"; };
 		0379DFFC210FFB6900F07668 /* HelloMap.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelloMap.xib; sourceTree = "<group>"; };
+		0379DFFF2110397D00F07668 /* XMGBaiduTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGBaiduTool.h; sourceTree = "<group>"; };
+		0379E0002110397D00F07668 /* XMGBaiduTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGBaiduTool.m; sourceTree = "<group>"; };
+		0379E00221103A3700F07668 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		03F5910C210F352F00E3BAA8 /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Location.framework; path = Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
 		03F5910D210F352F00E3BAA8 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
 		03F5910E210F352F00E3BAA8 /* thirdlibs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = thirdlibs; path = Pods/BaiduMapKit/BaiduMapKit/thirdlibs; sourceTree = "<group>"; };
@@ -158,6 +162,9 @@
 				0379DFFA210FFB6900F07668 /* HelloMap.h */,
 				0379DFFB210FFB6900F07668 /* HelloMap.m */,
 				0379DFFC210FFB6900F07668 /* HelloMap.xib */,
+				0379E00221103A3700F07668 /* Singleton.h */,
+				0379DFFF2110397D00F07668 /* XMGBaiduTool.h */,
+				0379E0002110397D00F07668 /* XMGBaiduTool.m */,
 			);
 			path = helloMap;
 			sourceTree = "<group>";
@@ -316,6 +323,7 @@
 				0301788A210F32DB0005A6C0 /* main.m in Sources */,
 				0379DFF8210FF9D700F07668 /* baseTablePage.m in Sources */,
 				0301787C210F32DA0005A6C0 /* AppDelegate.m in Sources */,
+				0379E0012110397D00F07668 /* XMGBaiduTool.m in Sources */,
 				0379DFFD210FFB6900F07668 /* HelloMap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
