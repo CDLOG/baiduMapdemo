@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  HelloMap.h
 //  BaiduMapDemo
 //
-//  Created by 陈乐杰 on 2018/7/30.
+//  Created by 陈乐杰 on 2018/7/31.
 //  Copyright © 2018年 nst. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HelloMap : UIViewController
 
 @end
-
